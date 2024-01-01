@@ -1,0 +1,28 @@
+/* Universal for margin and padding */
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+/* Q1  */
+#bar{
+    background-color: rgb(15, 237, 163);
+    color: rgba(230, 25, 25, 0.8);
+}
+
+/* Q2  */
+main{
+    color: rgb(255, 2, 234);
+}
+
+/* Q3 */
+#Hey
+{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYscfUBUbqwGd_DHVhG-ZjCOD7MUpxp4uhNe7toUg4ug&s);
+    height: 250px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* This all background properties we can do in 1 line also = shorte end */
+}
