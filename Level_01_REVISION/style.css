@@ -1,0 +1,11 @@
+
+/*Q1. header css  */
+h3{
+    color: blueviolet;
+}
+
+/*Q2. 1st way = priority 3rd  */
+#heading
+{
+    color: chocolate;
+}
