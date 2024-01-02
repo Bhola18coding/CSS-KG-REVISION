@@ -1,0 +1,76 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+  
+  /*01. Text-Align */
+  #box1{
+    height: 100px;
+    width: 100px;
+    background-color: yellowgreen;
+    text-align: center; */
+    text-align: left;
+    text-align: right;
+    text-align: justify; 
+}
+
+/*02. Text Decoration, Text-Decoration-style, Text-decoration-color */
+#hey{
+    text-decoration: line-through;
+    text-decoration-style: double;
+    text-decoration-color: blue;
+}
+
+a
+{
+    text-decoration: line-through;
+    text-decoration-style: dashed;
+    text-decoration-color: hotpink;
+}
+
+/*03 Text - Transform */
+#box2
+{
+    text-transform: lowercase;
+}
+
+#box3
+{
+    text-transform: uppercase;
+}
+
+
+/*04. Line  Height*/
+#first
+{
+  line-height: 6px;
+}
+
+#second
+{
+    line-height: 30px;
+}
+
+/* 05. Font-Size */
+#p
+{
+    font-size: 30px;
+}
+
+/* 06 Font weight Range-100 to 900 then text*/
+#weight
+{
+    font-weight:900;
+}
+
+/* 07 Font - style */
+#style
+{
+    font-style: italic;
+}
+
+#fontfam
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+}
