@@ -1,0 +1,24 @@
+
+/* Q1 & Q2*/
+#head 
+{
+    height: 100px;
+    width: 250px;
+    background-color: yellowgreen;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* Q3 */
+#outter
+{
+    font-size: 25px;
+}
+
+#inner
+{
+    font-size: 10px;
+}
+
