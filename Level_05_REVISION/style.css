@@ -1,0 +1,70 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* 1ST TASK */
+nav{
+    padding: 5px;
+}
+
+nav a{
+    text-decoration: none;
+    margin: 60px;
+    padding: 5px;
+}
+
+header
+{
+    background-color: rgb(245, 171, 44);
+    height: 30px;
+}
+
+/* 2nd task */
+#second
+{
+    height: 50px;
+    width: 50px;
+    background-color: greenyellow;
+    border-radius: 50%;
+
+}
+
+/* 3RD TASK  */
+.box 
+{
+    height: 100px;
+    width: 100px;
+    background-color: darkorchid;
+    margin: 5px;
+    display: block;
+}
+
+#container
+{
+    border: 3px solid black;
+    margin: 5px;
+}
+
+/* 4th Task */
+#box4
+{
+    position: fixed;
+    right: 60px;
+}
+
+/* 5th Task */
+#box2 
+{
+    z-index: 2;
+    position: absolute;
+}
+
+/* 6th Task  */
+footer
+{
+    position: fixed;
+    bottom: 0px;
+    background-color: mediumaquamarine;
+}
