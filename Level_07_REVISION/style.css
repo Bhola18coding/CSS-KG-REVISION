@@ -1,0 +1,36 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Task - 01 */
+.progress-container
+{
+    width: 90%;
+    height: 25px;
+   background-color: rgb(138, 135, 120);
+   border: 2px solid black;
+   border-radius: 20px;
+   position: relative;
+   left: 4%;
+   margin-top: 5px;
+}
+
+.progress-bar
+{
+    background-color: blueviolet;
+    height: 100%;
+    /* width: 50%; */
+    border-radius: 20px;
+
+    animation: animate_progress 3s infinite;
+}
+
+@keyframes animate_progress 
+{
+   0% {width: 0%;}
+   40% {width: 50%;}
+   60% {width: 30%;}
+   100% {width: 100%;}
+}
