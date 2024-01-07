@@ -1,0 +1,101 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Task 1 */
+nav a{
+    text-decoration: none;
+}
+
+nav 
+{
+    padding: 5px;
+    font-size: 23px;
+    display: flex;
+    justify-content: space-around;
+}
+
+header 
+{
+    height: 30px;
+    padding-bottom: 5px;
+    background-color: rgb(206, 146, 180);
+}
+
+/* 2ND TASK */
+img{
+    height: 200px;
+    width: 200px;
+}
+
+#container
+{
+ border: 5px solid black;
+ height: 250px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+/* 3rd Task  & 4th Task */
+#contain
+{
+    border: 5px solid black;
+    display:flex;
+    justify-content: space-between;
+   
+}
+
+.box
+{
+    height: 200px;
+    width: 200px;
+   
+}
+
+#box1{
+    background-color: aquamarine;
+}
+
+#box2
+{
+    background-color: darkcyan;
+    
+}
+#box3
+{
+    background-color: darkgray;
+    /* flex-shrink: 7; */
+    flex-grow: 7;
+}
+
+
+/* Last Task */
+#mediaBox
+{
+    height: 50px;
+    width: 50px;
+    background-color: darkgreen;
+    border: 3px solid black;
+}
+
+/* @media screen and (min-width:600px) {
+    #mediaBox
+{
+   
+    background-color: rgb(11, 121, 231);
+   
+} */
+
+
+@media screen and (min-width:300px) and (max-width:400px) {
+    #mediaBox
+{
+   
+    background-color: rgb(200, 12, 50);
+   
+}
+
+}
